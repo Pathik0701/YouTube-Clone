@@ -11,3 +11,21 @@ body{
     padding-left: 96px;
     padding-right: 24px;
 }
+
+body.dark {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+body.dark .header, body.dark .sidebar{
+    background: #0f0f0f;
+    border-color: #303030;
+}
+
+body.dark .sidebar-item:hover {
+    background: #272727;
+}
+
+body.dark .channel-name, body.dark .meta {
+    color: #aaa;
+}

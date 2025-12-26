@@ -54,13 +54,13 @@
     row-gap: 40px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     .video-grid{
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width: 751px) and (max-width: 1199px){
+@media (min-width: 801px) and (max-width: 1199px){
     .video-grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
